@@ -1,5 +1,6 @@
 const characters = [
   // {id:"", name:"", element:"", icon:"images/characters/.png", fallback:""},
+  {id:"hsin", name:"心", element:"electro", icon:"images/characters/hsin.png", fallback:""},
   {id:"jingran", name:"景燃", element:"fusion", icon:"images/characters/jingran.png", fallback:""},
   {id:"qingxiao", name:"清宵", element:"aero", icon:"images/characters/qingxiao.png", fallback:""},
   {id:"suisui", name:"穂穂", element:"glacio", icon:"images/characters/suisui.png", fallback:""},
