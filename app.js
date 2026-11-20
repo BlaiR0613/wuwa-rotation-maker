@@ -1,5 +1,6 @@
 const characters = [
   // {id:"", name:"", element:"", icon:"images/characters/.png", fallback:""},
+  {id:"lily", name:"リリー", element:"spectro", icon:"images/characters/lily.png", fallback:""},
   {id:"suoming", name:"鎖暝", element:"electro", icon:"images/characters/suoming.png", fallback:""},
   {id:"hsin", name:"心", element:"electro", icon:"images/characters/hsin.png", fallback:""},
   {id:"jingran", name:"景燃", element:"fusion", icon:"images/characters/jingran.png", fallback:""},
@@ -97,7 +98,8 @@ const characterSpecificSkills = {
   jiyan: ["通常長押し"],
   chixia: ["スキル長押し"],
   zhezhi: ["強スキル3"],
-  carlotta: ["解放1","解放2","解放3","解放4","解放5","解放6","強音骸"]
+  carlotta: ["解放1","解放2","解放3","解放4","解放5","解放6","強音骸"],
+  lily: ["解放解除"]
 };
 
 let selectedCharacter = characters[0].id;
@@ -843,7 +845,7 @@ function isCharInTeam(team, charId) {
   return team.chars.includes(charId);
 }
 
-const DEFAULT_BUFF_CHARS = ["verina", "shorekeeper", "baizhi", "mornye", "suisui", "buling"];
+const DEFAULT_BUFF_CHARS = ["verina", "shorekeeper", "baizhi", "mornye", "suisui", "buling", "lily"];
 
 const MATRIX_STORAGE_KEY = "wuwa_matrix_draft_v1";
 
